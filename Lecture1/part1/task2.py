@@ -1,0 +1,5 @@
+n = int(input("Number of all passengers: "))
+m = int(input("Number of passangers not traveling to Vilnius: "))
+w = int(input("Number of wagons: "))
+k = float((n - m) / w)
+print(k)
