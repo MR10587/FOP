@@ -129,3 +129,94 @@
     
 # average_grade = whole_grade / number_of_classes
 # print(average_grade)
+
+# Task 10
+# n = int(input("Number of circles: "))
+# circles_radius = []
+
+# for i in range(n):
+#     circles_radius.append(int(input("Enter radius: ")))
+
+# max_radius = max(circles_radius)
+
+# print(f"Largest circle radius is {max_radius}")
+# print(f"Amount of circles with radius {max_radius} is {circles_radius.count(max_radius)}")
+
+# Task 11
+# grades = []
+# grade = int(input("Enter grade: "))
+
+# while grade != 0:
+#     grades.append(grade)
+#     grade = int(input("Enter grade: "))
+    
+# print(f"Average is {sum(grades) / len(grades)}")
+
+# Task 12
+# n = int(input("Enter number of products: "))
+# A = []
+# B = []
+
+# for i in range(n):
+#     A.append(int(input("Number of units of product: ")))
+
+# for i in range(n):
+#     B.append(int(input("Number of product units to added: ")))
+
+# print(A)
+# print(B)
+
+# for product in range(n):
+#     A[product] = A[product] + B[product]
+
+# print(A)
+
+# Task 13
+# n = int(input("Number of children: "))
+# A = []
+
+# for i in range(n):
+#     A.append(int(input("Enter number of non-attendance days: ")))
+
+# ascending_A = sorted(A)
+# descending_A = sorted(A, reverse = True)
+# print(A)
+# print(ascending_A)
+# print(descending_A)
+
+# Task 14
+# n = int(input("Number of people: "))
+# weight_list = []
+# category_1 = []
+# category_2 = []
+# category_3 = []
+
+# for people in range(n):
+#     weight = int(input("Enter person's weight: "))
+#     weight_list.append(weight)
+    
+#     if weight > 80:
+#         category_3.append(weight)
+#     elif weight >= 60:
+#         category_2.append(weight)
+#     else:
+#         category_1.append(weight)
+    
+# print(weight_list)
+# print(f"{len(category_1)} people in category 1")
+# print(f"{len(category_2)} people in category 2")
+# print(f"{len(category_3)} people in category 3")
+
+# Task 15
+# n = int(input("Number of sections in library: "))
+# A = []
+
+# for i in range(n):
+#     A.append(int(input("Number of cards: ")))
+    
+# print(A)
+
+# for i in range(1, n, 2):
+#     A[i] = A[i] + i + 1
+
+# print(A)
