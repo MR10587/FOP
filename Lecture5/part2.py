@@ -45,23 +45,23 @@
 
 # print(line_new)
 
-# Task 5
-import re
+# Task 6
+# import re
 
-line = input("Enter string: ").strip()
+# line = input("Enter string: ").strip()
 
-signs = "\\ |\\,|\\;"
+# signs = "\\ |\\,|\\;"
 
-words = re.split(signs, line)
+# words = re.split(signs, line)
 
-print(words)
+# print(words)
 
-words_amount = {}
+# words_amount = {}
 
-for word in words:
-    if not word in words_amount:
-        words_amount[word] = 1
-    else:
-        words_amount[word] += 1
+# for word in words:
+#     if not word in words_amount:
+#         words_amount[word] = 1
+#     else:
+#         words_amount[word] += 1
 
-print(words_amount)
+# print(words_amount)
