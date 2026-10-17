@@ -1,0 +1,3 @@
+Surname	Name	City	Phone Number
+Roze	Paulina	Klaipeda	860101011	
+Kavaliauskiene	Ramune	Sakiai	860321011	
