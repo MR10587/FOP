@@ -79,10 +79,10 @@ def max_price(products):
     return max(products, key=lambda product: product["price"])
 
 def average_price(products):
-    return sum([product["price"]] for product in products) / len(products)
+    return sum(product["price"] for product in products) / len(products)
 
 def sum_price(products):
-    return sum([product["price"]] for product in products)
+    return sum(product["price"] for product in products)
 
 def filtered_products(products):
     filtered_products = []
@@ -98,5 +98,14 @@ def write_to_file(filename, products):
         products = filtered_products(products)
 
         for product in products:
-            f.write(f"{product["name"]}{product["category"]}{product["price"]}{product["quantity"]}")
+            f.write(f"{product["name"]}{product["category"]:>15}{product["price"]:>10}  {product["quantity"]:<10}")
 
+def main():
+    store_title, products = read_data("products.txt")
+    print_data(store_title, products)
+    print(max_price(products))
+    print(average_price(products))
+    print(sum_price(products))
+    write_to_file("filtered.txt", products)
+
+main()
