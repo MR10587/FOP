@@ -1,0 +1,6 @@
+TechPoint
+Keyboard,Accessories,35.50,12
+Mouse,Accessories,15.00,30
+Headphones,Audio,65.00,8
+Monitor,Displays,180.00,5
+USB Cable,Accessories,7.50,60

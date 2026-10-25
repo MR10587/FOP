@@ -1,0 +1,4 @@
+BUILD MART 2
+Paint,Finishing material,18,China,700
+Parquet,Floor covering,35,Poland,250
+Roof panels,Roofing material,55,China,400
