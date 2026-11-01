@@ -50,3 +50,60 @@
 # else:
 #     print("They are equal")
 
+# TASK 3
+# matrix = []
+
+# with open("matrix3.txt", "r") as f:
+#     for line in f:
+#         matrix.append(list(map(int, line.split())))
+
+# max_num = 0
+# max_row = 0
+# max_column = 0
+
+# for i, row in enumerate(matrix):
+#     if max(row) > max_num:
+#         max_num = max(row)
+#         max_row = i + 1
+#         max_column = row.index(max(row)) + 1
+
+# print(f"The largest number is {max_num} - in the {max_row} row and {max_column} column")
+
+# TASK 4
+# def read_file(filename):
+#     matrix = []
+
+#     with open(filename, "r") as f:
+#         for line in f:
+#             matrix.append(list(map(int, line.split())))
+
+#     return matrix
+
+# def min_each_row(matrix):
+#     mins = []
+
+#     for i, row in enumerate(matrix):
+#         mins.append({
+#             "value": min(row),
+#             "row": i + 1,
+#             "column": row.index((min(row))) + 1
+#         })
+
+#     max_of_mins = max(mins, key=lambda x: x["value"])
+
+#     return mins, max_of_mins
+
+# def print_matrix(matrix):
+#     print(matrix)
+
+# def print_mins(mins, max_of_mins):
+#     print(f"Minimum value of each row in matrix and their position: {mins}")
+#     print(f"Biggest of minimum values is {max_of_mins}")
+
+# def main():
+#     matrix = read_file("matrix4.txt")
+#     mins, max_of_mins = min_each_row(matrix)
+#     print_matrix(matrix)
+#     print_mins(mins, max_of_mins)
+
+# main()
