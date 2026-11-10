@@ -1,0 +1,7 @@
+Martinaitis, Mantas, physics, 38905121234
+Jonaitis, Jonas, mathematics, 39001015678
+Petrauskienė, Rasa, physics, 48911234567
+Kazlauskas, Tomas, informatics, 50102031111
+Gricienė, Elena, physics, 48908249876
+Paulauskas, Andrius, physics, 38804154321
+Sabonis, Arvydas, physics, 58907110022
